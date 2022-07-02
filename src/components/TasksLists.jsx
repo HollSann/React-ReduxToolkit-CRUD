@@ -29,6 +29,7 @@ function TasksLists() {
                     to={`/edit-task/${task.id}`}>Editar
                   </Link>
 
+
                   <button
                     className='bg-red-500 px-2 py-1 rounded-md text-xs hover:bg-red-400'
                     onClick={() => handleDelete(task.id)}>Eliminar
