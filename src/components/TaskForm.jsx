@@ -38,6 +38,7 @@ function TaskForm() {
 
     }
     navigate('/React-ReduxToolkit-CRUD/');
+
   };
 
   //ACTUALIZAR TAREA
