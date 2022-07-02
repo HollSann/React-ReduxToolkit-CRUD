@@ -4,5 +4,7 @@ export const store = configureStore({
     reducer: {
         tasks: taskReducer,
 
+
+
     }
 })  
