@@ -12,7 +12,7 @@ function App() {
 
         <BrowserRouter>
           <Routes>
-            <Route path='React-ReduxToolkit-CRUD/' element={<TasksLists />} />
+            <Route path='/React-ReduxToolkit-CRUD/' element={<TasksLists />} />
             <Route path='/create-task' element={<TaskForm />} />
             <Route path='/edit-task/:id' element={<TaskForm />} />
 
